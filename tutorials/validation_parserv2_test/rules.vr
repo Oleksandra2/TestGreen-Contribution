@@ -32,3 +32,31 @@ The text of question for multi-choice
 [x] Answer 4
 [VALIDATE_4]
 
+[VALIDATE_5]
+###Rule
+exact-match
+###Question
+very long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long question!
+###Match
+Short answer
+[VALIDATE_5]
+
+[VALIDATE_6]
+###Rule
+exact-match
+###Question
+Q
+###Match
+one letter in the question
+[VALIDATE_6]
+
+[VALIDATE_7]
+###Rule
+exact-match
+###Question
+5
+###Match
+one digit in the question
+[VALIDATE_7]
+
+
